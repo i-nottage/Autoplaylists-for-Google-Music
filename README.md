@@ -1,19 +1,18 @@
-# Autoplaylists for Google Music™
+# This is a Google Play Music Assistant Type Thing
+### No name yet 
 
-This is a Chrome extension to add user-defined autoplaylists in Google Music (iTunes calls these "Smart Playlists").
-
-![autoplaylist screenshot](autoplaylists_screenshot.png?raw=true)
+Forked from Google Play Music Autoplaylists
 
 **This extension is not supported nor endorsed by Google.**
 
 ## Installation and support
-Everything relevant to users can be found at https://autoplaylists.simon.codes.
 
 The rest of this page is intended for developers.
 
 ## Development workflow
 * run `npm install`
-* run `./watch.sh` somewhere and leave it running -- this will build whenever files change
+* YOU MUST DO THIS: run `./watch.sh` somewhere and leave it running -- this will build whenever files change
+-	- Also, install watchify globallly: `npm -g install watchify`
 * go to chrome://extensions/
 * click "developer mode"
 * click "Load unpacked extension" and provide the repo/src directory
